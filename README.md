@@ -71,9 +71,17 @@ La aplicación estará disponible en http://127.0.0.1:5000.
 
 ## Uso de la Aplicación
 
+### Inicio
+
+Al iniciar la aplicación, lo primero que verás será la siguiente pantalla. Desde aquí, podrás comenzar inmediatamente con la gestión de tu inventario o explorar otras opciones. Puedes ver cómo funciona la aplicación, obtener información general sobre su uso, o contactarnos si deseas nuestros servicios en el futuro.. 
+
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/cc1bdf70-27b0-4e6d-8a51-5d8160e474a0)
+
 ### Menú Principal
 
 Al iniciar la aplicación, serás llevado al menú principal, donde podrás gestionar productos, proveedores, bodegas y categorías. Asegúrate de registrar proveedores, bodegas y categorías antes de crear un nuevo producto.
+
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/8ebfb2a8-0190-4547-bcdc-dc513704b8ce)
 
 ### Gestión de Productos
 
@@ -84,6 +92,8 @@ Al iniciar la aplicación, serás llevado al menú principal, donde podrás gest
 - Actualizar Producto: En la lista de productos, selecciona "Editar" junto al producto que deseas actualizar. Realiza los cambios necesarios y guarda.
 
 - Eliminar Producto: En la lista de productos, selecciona "Borrar" junto al producto que deseas eliminar.
+  
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/b878dc7f-6351-431e-a1b0-8ed7e70bfa7b)
 
 ### Gestión de Proveedores
 
@@ -95,6 +105,8 @@ Al iniciar la aplicación, serás llevado al menú principal, donde podrás gest
 
 - Eliminar Proveedor: En la lista de proveedores, selecciona "Borrar" junto al proveedor que deseas eliminar.
 
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/85aeb26a-c80a-4246-ab34-1e0a81c51150)
+
 ### Gestión de Bodegas
 
 - Crear Bodega: Selecciona "Gestionar Bodegas" y luego "Crear Nueva Bodega". Llena el formulario con los detalles de la bodega y haz clic en "Registrar Bodega".
@@ -105,6 +117,8 @@ Al iniciar la aplicación, serás llevado al menú principal, donde podrás gest
 
 - Eliminar Bodega: En la lista de bodegas, selecciona "Borrar" junto a la bodega que deseas eliminar.
 
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/32d4747e-0cf5-4c3a-8f36-7cb3c7d718d9)
+
 ### Gestión de Categorías
 
 - Crear Categoría: Selecciona "Gestionar Categorías" y luego "Crear Nueva Categoría". Llena el formulario con los detalles de la categoría y haz clic en "Registrar Categoría".
@@ -114,7 +128,21 @@ Al iniciar la aplicación, serás llevado al menú principal, donde podrás gest
 - Actualizar Categoría: En la lista de categorías, selecciona "Editar" junto a la categoría que deseas actualizar. Realiza los cambios necesarios y guarda.
 
 - Eliminar Categoría: En la lista de categorías, selecciona "Borrar" junto a la categoría que deseas eliminar.
+  
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/abd1384c-a67b-421d-b0b6-34ddd5d4e3dc)
 
 ### Consultas y Reportes
 
 El sistema permite consultar la información de productos, proveedores, bodegas y categorías, incluyendo sus detalles y las relaciones entre ellos. Además, se puede calcular el valor total del stock, sumando el precio de cada producto por la cantidad disponible.
+
+- Detalles de un Proveedor:
+  
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/8a663b05-21b4-4eea-97e1-95d5102e6ac0)
+
+- Detalles de una Bodega: 
+
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/0268e7a9-4080-4826-9525-89dbbdd62039)
+
+- Detalles de una Categoria:
+  
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/03b80a35-5c5a-4f64-b725-06b483c17fcd)
