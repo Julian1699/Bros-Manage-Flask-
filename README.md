@@ -1,13 +1,13 @@
 ## Gestión de Productos
 
-Este proyecto es una aplicación web de gestión de productos desarrollada con Flask. Permite a los usuarios crear, leer, actualizar y eliminar (CRUD) productos en una base de datos MySQL, así como gestionar proveedores, bodegas y categorías asociadas a los productos.
+Este proyecto es una aplicación web de gestión de productos desarrollada con Flask. Permite a los usuarios crear, leer, actualizar y eliminar (CRUD) productos en una base de datos PostgreSQL, así como gestionar proveedores, bodegas y categorías asociadas a los productos.
 
 ## Tecnologías Empleadas
 
 - **Python**: Lenguaje de programación principal.
 - **Flask**: Microframework web para Python.
 - **Flask-SQLAlchemy**: Extensión para manejar la base de datos con SQLAlchemy.
-- **MySQL**: Sistema de gestión de bases de datos relacional.
+- **PostgreSQL**: Sistema de gestión de bases de datos relacional.
 - **HTML/CSS**: Lenguajes para el diseño de la interfaz de usuario.
 - **Jinja2**: Motor de plantillas para Python usado con Flask.
 
