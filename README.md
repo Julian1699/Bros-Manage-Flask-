@@ -57,11 +57,19 @@ Asegúrate de que MySQL esté instalado y en ejecución. Crea una base de datos 
 
 5. Crear las Tablas en la Base de Datos
 
+Para realizar este paso, es necesario que vayas al archivo crear_db.py y cambies las credenciales de conexión a la base de datos MySQL (usuario y contraseña tuyas). Reemplázalas con las tuyas y asegúrate de indicar el nombre de la base de datos al final como db_gestion.
+
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/efe9fec1-ce90-414f-8e32-e3cad9b7fda2)
+
 Ejecuta el script crear_db.py para crear las tablas necesarias en la base de datos.
 
 - python crear_db.py
 
 6. Ejecutar la Aplicación
+   
+Para realizar este paso, es necesario que vayas al archivo main.py y cambies las credenciales de conexión a la base de datos MySQL (usuario y contraseña tuyas). Reemplázalas con las tuyas y asegúrate de indicar el nombre de la base de datos al final como db_gestion.
+
+![image](https://github.com/Julian1699/Bros-Manage-Flask-/assets/114323630/49953503-a221-4378-aceb-f022a98dbaeb)
 
 Finalmente, ejecuta la aplicación Flask.
 
