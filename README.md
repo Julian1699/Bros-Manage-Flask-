@@ -23,51 +23,25 @@ Este proyecto es una aplicación web de gestión de productos desarrollada con F
 
 ## Requisitos
 
-- **Python 3.6+**
-- **MySQL**
+- **Docker**
+- **Docker Compose**
 
 ## Instalación y Configuración
 
 ### 1. Clonar el Repositorio
 
 
-- git clone -b main https://github.com/Julian1699/Bros-Manage-Flask-.git
+- git clone -b dockerized_main https://github.com/Julian1699/Bros-Manage-Flask-.git
 
 - cd nombre-del-directorio
 
-### 2. Crear y Activar un Entorno Virtual
+### 2. Ejecutar Docker Compose
 
-- python -m venv venv
+docker-compose up --build
 
-- .\venv\Scripts\activate  # En Windows
+### 3. Acceder a la Aplicación.
 
-### 3. Instalar las Dependencias
-
-- pip install Flask
-
-- pip install Flask-SQLAlchemy
-
-- pip install mysql-connector-python
-
-### 4. Configurar la Base de Datos
-
-Asegúrate de que MySQL esté instalado y en ejecución. Crea una base de datos llamada db_gestion.
-
-- CREATE DATABASE db_gestion;
-
-5. Crear las Tablas en la Base de Datos
-
-Ejecuta el script crear_db.py para crear las tablas necesarias en la base de datos.
-
-- python crear_db.py
-
-6. Ejecutar la Aplicación
-
-Finalmente, ejecuta la aplicación Flask.
-
-- python main.py
-
-La aplicación estará disponible en http://127.0.0.1:5000.
+La aplicación estará disponible en http://localhost:5000.
 
 ## Uso de la Aplicación
 
