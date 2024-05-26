@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <title>Información General</title>
+</head>
+<body>
+    <header class="container">
+        <div class="button-container">
+            <a href="{{ url_for('inicio') }}"><button>Inicio</button></a>
+            <a href="{{ url_for('como_funciona') }}"><button>Cómo Funciona</button></a>
+            <a href="{{ url_for('informacion') }}"><button>Información General</button></a>
+            <a href="{{ url_for('contactanos') }}"><button>Contáctanos</button></a>
+        </div>
+    </header>
+    <div class="content-container">
+        <section>
+            <h2>¿Qué es un Sistema de Gestión de Inventario?</h2>
+            <p>Un Sistema de Gestión de Inventario es una herramienta informática diseñada para facilitar el control y manejo eficiente de los productos de una empresa o negocio. Esta herramienta ayuda a mantener un registro preciso de las existencias, gestionar proveedores, y optimizar los procesos de compra y venta.</p>
+        </section>
+
+        <section>
+            <h2>Funciones y Beneficios</h2>
+            <ul>
+                <li><strong>Control de Existencias:</strong> Mantiene un registro detallado de la cantidad de productos disponibles en el inventario, permitiendo un seguimiento preciso y evitando faltantes o excesos.</li>
+                <li><strong>Organización:</strong> Facilita la clasificación y organización de los productos por categorías, mejorando la accesibilidad y el manejo de los mismos.</li>
+                <li><strong>Gestión de Proveedores:</strong> Permite registrar y gestionar la información de los proveedores, asegurando un flujo constante de productos y la posibilidad de evaluar el desempeño de cada proveedor.</li>
+                <li><strong>Seguimiento de Movimientos:</strong> Registra los movimientos de entrada y salida de productos, proporcionando un historial detallado y facilitando la auditoría y el control del inventario.</li>
+                <li><strong>Optimización de Recursos:</strong> Contribuye a optimizar el uso de recursos al evitar la sobrecompra o la pérdida de productos, lo que se traduce en ahorro de costos y mejor eficiencia operativa.</li>
+                <li><strong>Toma de Decisiones:</strong> Proporciona información en tiempo real para tomar decisiones informadas sobre la compra, venta y distribución de productos, mejorando la capacidad de respuesta y la planificación estratégica.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Características Adicionales</h2>
+            <ul>
+                <li><strong>Reportes Personalizados:</strong> Genera reportes detallados y personalizados que ayudan a entender mejor el estado del inventario y a tomar decisiones basadas en datos concretos.</li>
+                <li><strong>Integración con Otros Sistemas:</strong> Se puede integrar con otros sistemas de la empresa, como ERP y CRM, para una gestión más completa y coordinada.</li>
+                <li><strong>Acceso Remoto:</strong> Permite el acceso remoto al sistema, facilitando la gestión del inventario desde cualquier lugar y en cualquier momento.</li>
+                <li><strong>Seguridad de Datos:</strong> Implementa medidas de seguridad avanzadas para proteger la información del inventario y asegurar la confidencialidad y la integridad de los datos.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Cómo Empezar</h2>
+            <p>Para comenzar a usar el Sistema de Gestión de Inventario, sigue estos pasos:</p>
+            <ol>
+                <li><strong>Registro:</strong> Regístrate en el sistema proporcionando los datos necesarios de tu empresa.</li>
+                <li><strong>Configuración Inicial:</strong> Configura los parámetros iniciales del sistema, como la creación de categorías, proveedores y bodegas.</li>
+                <li><strong>Capacitación:</strong> Participa en sesiones de capacitación para familiarizarte con todas las funcionalidades del sistema.</li>
+                <li><strong>Soporte:</strong> Accede al soporte técnico en caso de cualquier duda o inconveniente durante el uso del sistema.</li>
+            </ol>
+        </section>
+    </div>
+    <br><br>
+</body>
+</html>

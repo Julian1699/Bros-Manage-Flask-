@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Categorías</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header class="container">
+        <div class="button-container">
+            <a href="{{ url_for('inicio') }}"><button>Inicio</button></a>
+            <a href="{{ url_for('mostrar_productos') }}"><button>Gestionar Productos</button></a>
+            <a href="{{ url_for('mostrar_proveedores') }}"><button>Gestionar Proveedores</button></a>
+            <a href="{{ url_for('mostrar_bodegas') }}"><button>Gestionar Bodegas</button></a>
+        </div>
+    </header>
+    <div class="content-container">
+        <h2>Gestión de Categorías</h2>
+        <div class="new-item-button">
+            <a href="{{ url_for('mostrar_formulario_creacion_categoria') }}"><button>Crear Nueva Categoría</button></a>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for categoria in categorias %}
+                <tr>
+                    <td>{{ categoria[0] }}</td>
+                    <td>{{ categoria[1] }}</td>
+                    <td>{{ categoria[2] }}</td>
+                    <td>
+                        <a href="{{ url_for('consultar_categoria', id=categoria[0]) }}"><button class="btn btn-detail">Ver Detalle</button></a>
+                        <a href="{{ url_for('mostrar_formulario_actualizacion_categoria', id=categoria[0]) }}"><button class="btn btn-edit">Editar</button></a>
+                        <form action="{{ url_for('borrar_categoria', id=categoria[0]) }}" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-delete">Borrar</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <footer class="footer">
+        <p>© CopyRight Bros Manage</p>
+    </footer>
+</body>
+</html>

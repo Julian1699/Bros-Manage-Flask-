@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <title>Cómo Funciona</title>
+</head>
+<body>
+    <header class="container">
+        <div class="button-container">
+            <a href="{{ url_for('inicio') }}"><button>Inicio</button></a>
+            <a href="{{ url_for('como_funciona') }}"><button>Cómo Funciona</button></a>
+            <a href="{{ url_for('informacion') }}"><button>Información General</button></a>
+            <a href="{{ url_for('contactanos') }}"><button>Contáctanos</button></a>
+        </div>
+    </header>
+    <div class="content-container">
+        <h1>Guía del Sistema de Gestión de Inventarios</h1>
+        <p>Bienvenido al sistema de gestión de inventarios. Esta guía te proporcionará una explicación detallada sobre cómo utilizar nuestra herramienta para administrar tu inventario de manera eficiente.</p>
+
+        <h2>Paso 1: Acceso al Sistema</h2>
+        <p>Para acceder al sistema, abre tu navegador web preferido e ingresa la dirección URL del sistema de gestión de inventarios en la barra de direcciones. Presiona Enter para cargar la página principal del sistema.</p>
+
+        <h2>Paso 2: Navegación</h2>
+        <p>En la parte superior de la página, encontrarás un menú de navegación con las siguientes opciones: "Inicio", "Cómo Funciona", "Información General" y "Contáctanos". Utiliza este menú para moverte entre las diferentes secciones del sistema y obtener la información que necesitas.</p>
+
+        <h2>Paso 3: Preparación para el Registro de Producto</h2>
+        <p>Antes de poder registrar un producto, asegúrate de que ya hayas creado los proveedores, las categorías y las bodegas necesarios. Estos elementos son fundamentales para organizar y gestionar adecuadamente tu inventario.</p>
+
+        <h2>Paso 4: Registro de Producto</h2>
+        <p>Para registrar un nuevo producto en el inventario, dirígete a la sección "Iniciar" en la página principal. Completa todos los campos obligatorios del formulario, incluyendo:</p>
+        <ul>
+            <li>Nombre del producto</li>
+            <li>Descripción</li>
+            <li>Precio</li>
+            <li>Stock inicial</li>
+            <li>Categoría</li>
+            <li>Información del proveedor</li>
+            <li>Detalles de la bodega</li>
+        </ul>
+
+        <h2>Paso 5: Confirmación del Registro</h2>
+        <p>Una vez que hayas completado todos los campos del formulario, haz clic en el botón "Registrar Producto". El sistema procesará la información y mostrará un mensaje de confirmación en pantalla, indicando que el producto ha sido registrado exitosamente en el inventario.</p>
+
+        <h2>Paso 6: Exploración Adicional</h2>
+        <p>Después de registrar tu producto, puedes explorar otras secciones del sistema utilizando el menú de navegación. Accede a la sección "Información General" para obtener detalles adicionales sobre el sistema o visita "Contáctanos" si necesitas asistencia del equipo de soporte.</p>
+    </div>
+    <br><br>
+</body>
+</html>

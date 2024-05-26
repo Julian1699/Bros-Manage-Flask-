@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Proveedor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header class="container">
+        <div class="button-container">
+            <a href="{{ url_for('inicio') }}"><button>Inicio</button></a>
+            <a href="{{ url_for('mostrar_proveedores') }}"><button>Gestionar Proveedores</button></a>
+        </div>
+    </header>
+    <div class="content-container">
+        <h2>Detalle de Proveedor</h2>
+        <p><strong>Nombre:</strong> {{ proveedor[0] }}</p>
+        <p><strong>Dirección:</strong> {{ proveedor[1] }}</p>
+        <p><strong>Teléfono:</strong> {{ proveedor[2] }}</p>
+        <h3>Productos Suministrados</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for producto in productos %}
+                <tr>
+                    <td>{{ producto[0] }}</td>
+                    <td>{{ producto[1] }}</td>
+                    <td>{{ producto[2] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <footer class="footer">
+        <p>© CopyRight Bros Manage</p>
+    </footer>
+</body>
+</html>
