@@ -31,9 +31,9 @@ Este proyecto es una aplicación web de gestión de productos desarrollada con F
 ### 1. Clonar el Repositorio
 
 
-git clone -b main https://github.com/Julian1699/Bros-Manage-Flask-.git
+- git clone -b main https://github.com/Julian1699/Bros-Manage-Flask-.git
 
-cd nombre-del-repositorio
+- cd nombre-del-directorio
 
 ### 2. Crear y Activar un Entorno Virtual
 
